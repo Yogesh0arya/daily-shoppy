@@ -58,7 +58,10 @@ function ProductFeed({ products }) {
 
   return (
     <div>
-      <div className="text-sm md:text-lg flex gap-x-3 gap-y-1 justify-center flex-wrap pt-12">
+      <h1 className="text-center md:text-lg pt-12 pb-5 text-yellow-700">
+        TOP CATAGORIES
+      </h1>
+      <div className="text-sm md:text-lg flex gap-x-3 gap-y-1 justify-center flex-wrap">
         <button
           className="px-3 py-1 border-2 border-black"
           onClick={() => setFilter(products)}
@@ -69,13 +72,13 @@ function ProductFeed({ products }) {
           className="px-3 py-1 border-2 border-black"
           onClick={() => filterProduct("men's clothing")}
         >
-          Men's clothing
+          Men&apos;s clothing
         </button>
         <button
           className="px-3 py-1 border-2 border-black"
           onClick={() => filterProduct("women's clothing")}
         >
-          Women's clothing
+          Women&apos;s clothing
         </button>
         <button
           className="px-3 py-1 border-2 border-black"
