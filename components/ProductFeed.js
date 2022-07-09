@@ -1,6 +1,5 @@
 import Product from "./Product";
-import useLazyLoad from "./useLazyLoad";
-import { LoadingPosts } from "./LoadingPosts";
+
 import { useEffect, useState, useRef } from "react";
 import { Menu, Transition } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/solid";
