@@ -61,26 +61,26 @@ function Header() {
 
               <div className="relative flex items-center group">
                 <button className="flex items-center hover:opacity-80">
-                  Order Online
+                  Prime
                   <ChevronDownIcon className="w-4 ml-1" />
                 </button>
                 <div className="absolute top-0 w-24 hidden group-hover:inline-block">
                   <div className="text-gray-700 mt-12 -ml-24 grid grid-cols-2 gap-3 w-max p-5 bg-white shadow-md rounded-lg text-base">
                     <div className="space-y-3">
                       <p className="hover:bg-blue-100 p-2 cursor-pointer">
-                        Home Delivery
+                        Try Prime
                       </p>
                       <p className="hover:bg-blue-100 p-2 cursor-pointer">
-                        Take Away
+                        Prime Reading
                       </p>
                       <p className="hover:bg-blue-100 p-2 cursor-pointer">
-                        Multiple Payment Mode
+                        Prime Music
                       </p>
                       <p className="hover:bg-blue-100 p-2 cursor-pointer">
-                        Party Orders
+                        Prime Videos
                       </p>
                       <p className="hover:bg-blue-100 p-2 cursor-pointer">
-                        Amenities
+                        Prime Games
                       </p>
                       <p className="hover:bg-blue-100 p-2 cursor-pointer">
                         Explore More
@@ -88,16 +88,16 @@ function Header() {
                     </div>
                     <div className="space-y-3">
                       <p className="hover:bg-blue-100 p-2 cursor-pointer">
-                        Best Quality
+                        Free Delivery
                       </p>
                       <p className="hover:bg-blue-100 p-2 cursor-pointer">
-                        On Time
+                        3 days delivery
                       </p>
                       <p className="hover:bg-blue-100 p-2 cursor-pointer">
-                        Master Chef
+                        Deals
                       </p>
                       <p className="hover:bg-blue-100 p-2 cursor-pointer">
-                        Tast Food
+                        Saving
                       </p>
                     </div>
                   </div>
@@ -106,32 +106,32 @@ function Header() {
 
               <div className="relative flex items-center group">
                 <button className="flex items-center hover:opacity-80">
-                  Book A Table
+                  Categories
                   <ChevronDownIcon className="w-4 ml-1" />
                 </button>
                 <div className="absolute top-0 w-24 hidden group-hover:inline-block">
                   <div className="text-gray-700 mt-12 -ml-6 w-max p-5 bg-white shadow-md rounded-lg text-base space-y-3">
-                    <p className="hover:bg-blue-100 p-2 cursor-pointer">
-                      2 Members
+                     <p className="hover:bg-blue-100 p-2 cursor-pointer">
+                      Fashion & Beauty
                     </p>
                     <p className="hover:bg-blue-100 p-2 cursor-pointer">
-                      4 Members
+                      Grocerries
                     </p>
                     <p className="hover:bg-blue-100 p-2 cursor-pointer">
-                      Big family
+                      Health
                     </p>
                     <p className="hover:bg-blue-100 p-2 cursor-pointer">
-                      Book A Hall
+                      Home, Furniture
                     </p>
                     <p className="hover:bg-blue-100 p-2 cursor-pointer">
-                      Birthday Party
+                      Toys,books
                     </p>
                   </div>
                 </div>
               </div>
 
               <button className="hover:opacity-80 border-b border-transparent hover:border-white">
-                Gallery
+                Account
               </button>
               <button className="hover:opacity-80 border-b border-transparent hover:border-white">
                 About Us
