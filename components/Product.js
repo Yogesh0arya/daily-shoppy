@@ -29,7 +29,7 @@ function Product({ id, title, price, description, category, image, rating }) {
       <p className="text-xs my-2 line-clamp-2">{description}</p>
 
       <div className="mb-5">
-        <h1>{(price * 80).toFixed(2)}</h1>
+        <h1>Rs. {(price * 80).toFixed(2)}</h1>
       </div>
 
       {/* {hasPrime && (
