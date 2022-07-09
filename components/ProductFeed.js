@@ -185,7 +185,7 @@ function ProductFeed({ products }) {
           loader={<p>loading...</p>}
           endMessage={<p>Yay! you have seen it all</p>}
         > */}
-        {posts
+        {filter
           .slice(5, products.length)
           .map(({ id, title, price, description, category, image, rating }) => (
             <Product
